@@ -2,21 +2,22 @@
 
 ### Overview
 
-<img src="microsoft.png" width="600" height="600" align="center"/>
+<img src="microsoft.png" width="600" height="300" align="center"/>
 
 This project analyzes film data with respect to the genres, budgets and release dates. The data is primarily sourced from two formats, one a CSV and the other a database. Analysis of the data will demonstrate that select genres rate higher than others, the production for these select genres and that certain months are more ideal for a film premier. Microsoft can use these insights to select genres, plan their budgets and set release dates for their films.
 
 ### Business Problem
 
-<img src="cinema1.jpeg" width="600" height="600" align="center"/>
+<img src="cinema1.jpeg" width="600" height="300" align="center"/>
 
 A stakeholder needs data driven recommendations for Microsoft's new movie studio. Microsoft does not have industry experience in financing, producing or releasing films and therefore needs direction. Three recommendations formulated from film-based data are proposed to address these issues so Microsoft can confidently navigate the film industry.
 
 ### Data Understanding
 
-<img src="film_data.png" width="600" height="600" align="center"/>
+<img src="film_data.png" width="600" height="300" align="center"/>
 
 IMDB data from [IMDB](http://www.imdb.com) stored in a SQLite database is used for analysis and contains films from 2010 to 2019. Tables movie_basics and movie_ratings are joined together to provide insight regarding genres and average ratings. A CSV movie budgets document from [The Numbers](https://www.the-numbers.com) is also used for analysis and contains films from 1975 to 2016. This document includes film data for release date, production budget, worldwide gross, etc.
+
 
 ![avg_rating_genre](https://user-images.githubusercontent.com/96359837/190866641-62cb75cc-9032-454a-b86f-6c244ae268ba.png)
 
@@ -32,7 +33,10 @@ Financially speaking, the aforementioned films are relatively less costly to pro
 ### Recommendation
 *Based on this analysis, Microsoft's first film should be a short film followed by a documentary, both of which are likely to rate favorably. This will establish Microsoft's credibility and earn them viewers which leads to consumer loyalty translating to recurring revenue.*
 
+
+
 ![prod_budget](https://user-images.githubusercontent.com/96359837/190866739-7d57f79c-aa58-4996-892f-048d0ac189d0.png)
+
 
 
 ### Analysis
